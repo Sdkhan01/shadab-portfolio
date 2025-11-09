@@ -181,14 +181,16 @@ export default function Home() {
             {/* Project 1 */}
             <article className="bg-white rounded shadow p-4 hover:shadow-lg transition">
               <div className="text-xs text-slate-400">Business Intelligence</div>
-              <h4 className="text-lg font-semibold mt-1">
-                Urban Wash — Operations Dashboard
-              </h4>
+              <h4 className="text-lg font-semibold mt-1">Urban Wash — Operations Dashboard</h4>
+              <img 
+                src="/dashboard.png"
+                alt="Urban Wash Dashboard"
+                className="rounded mt-3 mb-3 shadow-sm"
+              />
               <p className="mt-2 text-sm text-slate-600">
-                Built end-to-end Power BI dashboard for a multiarea car wash —
-                revenue, area insights, staff performance, and customer
-                analytics. Delivered .pbix with documentation.
+                Built end-to-end Power BI dashboard for a multiarea car wash — revenue, area insights, staff performance, and customer analytics. Delivered .pbix with documentation.
               </p>
+
               <ul className="mt-3 text-xs text-slate-500 space-y-1">
                 <li>Power BI, DAX, Data modeling</li>
                 <li>Data cleaning & Excel automation</li>
@@ -296,12 +298,12 @@ export default function Home() {
               <div className="mt-4 text-sm text-slate-500">GitHub</div>
               <div className="font-medium">
                 <a
-                  href="https://github.com/shadab-khan"
+                  href="https://github.com/Sdkhan01"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sky-600 hover:underline"
                 >
-                  github.com/shadab-khan
+                  github.com/Sdkhan01
                 </a>
               </div>
             </div>
